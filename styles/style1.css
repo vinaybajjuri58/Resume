@@ -16,20 +16,15 @@
 /* Forming grid */
 #Login{
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 5px;;
+    grid-template-columns: repeat(2,1fr);
 }
 /* Image  */
 #Login #Image img{
-    max-width: 680px;
-    max-height: auto;
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 5px;
     margin : 0px;
     padding: 0px;
-}
-#Login #Form{
-    grid-column: 2;
-    column-width: auto;
 }
 /* Displayig text over image */
 #Login h1{
