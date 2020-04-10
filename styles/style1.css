@@ -1,0 +1,61 @@
+/* #Header{ 
+    background-color:rgb(141, 109, 230);
+    height: 50px;
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 38px;
+    color: rgb(243, 243, 243);
+}*/
+/* #Header p{ 
+    color:rgba(214, 85, 46, 0.719);
+    font-size: 45px;
+
+    margin-top: 0px;
+}*/
+/* Forming grid */
+#Login{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 5px;;
+}
+/* Image  */
+#Login #Image img{
+    max-width: 680px;
+    max-height: auto;
+    border-radius: 5px;
+    margin : 0px;
+    padding: 0px;
+}
+#Login #Form{
+    grid-column: 2;
+    column-width: auto;
+}
+/* Displayig text over image */
+#Login h1{
+    position: absolute;
+    top:45px;
+    color: rgb(248, 249, 250);
+    font-family: 'Times New Roman', Times, serif;
+    size: 80px;
+    margin: 0px;
+}
+/* Locatig form */
+.grid-item2{
+    margin: 10px;
+    padding: 10px;
+}
+.grid-item2 h2{
+    color: rgb(102, 98, 98);
+    font-size: 34px;
+}
+.grid-item2 h4{
+    margin: 0px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1.85px;
+}
+.grid-item2 #button{
+    text-align: center;
+    size: 30px;
+}

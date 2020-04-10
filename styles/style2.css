@@ -1,0 +1,95 @@
+#wrapper{
+    display: grid;
+    margin: 1px;
+} 
+
+.nested1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.nested1 .left1 p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.nested2{
+    display: grid;
+    grid-template-columns: 25% auto;
+}
+.nav li{
+    float: left;
+    list-style:none;
+} 
+/* .header{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+} */
+
+
+/* Add a black background color to the top navigation */
+.nav {
+    background-color: #333;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px ;
+  }
+  
+/* Style the links inside the navigation bar */
+.nav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 13px 15px;
+text-decoration: none;
+font-size: 15px;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+/* Add a color to the active/current link */
+.nav a.active {
+background-color: #4CAF50;
+color: white;
+}
+.header{
+    position: sticky;
+   
+}
+#midArea1 .left1{
+    background-color: rgba(185, 182, 182, 0.699);
+    margin-top: 0px;
+    padding: 0px;
+}
+#midArea1 .right1{
+    background-color: rgb(184, 191, 194);
+    margin-top: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#midArea2 .left2{
+    background-color: rgb(180, 178, 178);
+    margin-top: 0px;
+    padding: 0px;
+}
+#midArea2 .right2{
+    background-color: whitesmoke;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer{
+    background-color: rgb(193, 207, 207);
+    color: black;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
